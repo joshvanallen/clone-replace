@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "properties": {
+    "sourceCloneUrl": {"type":"string", "description": "The url for the source project."},
+    "sourceBranch": {"type":"string", "description": "The branch that should be used for this setup."},
+    "targetCloneUrl": {"type":"string", "description":"The url for the target project."},
+    "targetBranch": {"type":"string", "description": "The target branch that should be created/updated."},
+    "replace":{"type":"boolean", "description": "Should history and content be replaced during this push?"}
+  },
+  "required": ["sourceCloneUrl","sourceBranch","targetCloneUrl","targetBranch","replace"]
+}

@@ -1,0 +1,8 @@
+{
+    "$schema": "./workshop-setup-schema.json",
+    "sourceCloneUrl": "git@github.com:jvanallen93/vue-workshop-brokeup.git",
+    "sourceBranch":"magic-8-ball",
+    "targetCloneUrl": "git@github.com:jvanallen93/vue-workshop-test.git",
+    "targetBranch":"master",
+    "replace": false
+}
